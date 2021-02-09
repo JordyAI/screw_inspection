@@ -36,6 +36,7 @@ Para la extracción de caracteristicas se utilizó una red neuronal convoluciona
 
 ### Resultados
 Precisión en el Test:  0.9983726739883423
+
               precision    recall  f1-score   support
 
            0       1.00      1.00      1.00       410
