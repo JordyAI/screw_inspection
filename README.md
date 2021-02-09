@@ -20,8 +20,8 @@ Precisión con los datos de Test:  0.9971098303794861
            1       1.00      0.99      1.00       173
 
     accuracy                           1.00       346
-   macro avg       1.00      1.00      1.00       346
-weighted avg       1.00      1.00      1.00       346
+    macro avg       1.00     1.00      1.00       346
+    weighted avg    1.00     1.00      1.00       346
 
 
 ## Clasificación
@@ -50,5 +50,5 @@ Precisión en el Test:  0.9983726739883423
            8       1.00      1.00      1.00       409
 
     accuracy                           1.00      3687
-   macro avg       1.00      1.00      1.00      3687
-weighted avg       1.00      1.00      1.00      3687
+    macro avg      1.00      1.00      1.00      3687
+    weighted avg   1.00      1.00      1.00      3687
