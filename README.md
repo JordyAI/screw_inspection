@@ -8,6 +8,9 @@ Para esta etapa se detectan posibles ubicaciones de tuercas (no incluido en el r
 ### Dataset
 Dado que el problema es detectar si hay o no hay tuerca en la ventana, para el dataset se tienen 2 clases. Las ventanas donde hay tuercas, vendría siendo la clase 1, y las ventanas donde NO hay tuercas, o hay tuercas incompletas que no sirven para la clasificación, son tomadas como clase 0. (En el documento se observan algunos ejemplos de cada clase).
 
+### Extracción de caracteristicas y modelo.
+Se extrajeron caracteristicas HOG para tener información sobre la forma de los objetos. Luego se utilizaron 3 capas full conected con función de activación sigmoid, regularización L2 y dropout = 0.25. Finalmente se conecta una capa tipo Softmax.
+
 ### Resultados
 Precisión con los datos de Test:  0.9971098303794861
 
