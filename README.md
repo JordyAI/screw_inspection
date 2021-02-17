@@ -2,6 +2,8 @@
 
 Este repositorio hace parte de un proyecto de inspección con visión artificial en una linea de producción de partes de vehiculos. El problema a tratar es de detección, segmentación y clasificación de 9 tipos de tuercas de distintos tamaños, algunas con diferentes colores, las cuales no son tan fáciles de distinguir para la vista humana.
 
+<img src="https://i.ibb.co/7vym0yX/Results.png" alt="Results" border="1">
+
 ## Detección
 Para esta etapa se detectan posibles ubicaciones de tuercas (no incluido en el repositorio), y posterior a eso se hace una etapa de refinamiento de detección pasando los canidatos por un detector binario. Lo que incluyo en este repositorio es la creación del modelo (detector_model_train.ipynb).
 
